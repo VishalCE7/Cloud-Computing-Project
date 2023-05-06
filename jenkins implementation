@@ -1,5 +1,6 @@
 pipeline {
     try{
+    
     notifyBuild('STARTED')
    stage('Preparation') {
        ecommerce website
